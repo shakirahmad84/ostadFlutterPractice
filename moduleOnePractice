@@ -1,1 +1,74 @@
+void main() {
+  var a = 'Single Quotation'; // Data Type: String with Single Quotation
+  var b = "Double Quotation"; // Data Type: String with Double Quotation
+  int c = 10; // Data Type: Number with Integer value
+  double d = 10.10; // Data Type: Number with Double/floating value.
+  bool e = true; // Data Type: Boolean
+  bool f = false; // Data Type Boolean
+  List g = [1, 2, 3, 4, 5, 6, 7, 8]; // Data Type: List
+  Map h = {'name': "Shakir", 'age': 37}; // Data Type: Map
+  print(a);
+  print(b);
+  print(c);
+  print(d);
+  print(e);
+  print(f);
+  print(g);
+  print(h);
 
+  var i = 10;
+  var j = 5;
+  var k = -5;
+  print("i + j = ${i + j}"); // Arithmetic Operators: Addition
+  print("i - j = ${i - j}"); // Arithmetic Operators: Subtraction
+  print("i * j = ${i * j}"); // Arithmetic Operators: Multiplication
+  print("i / j = ${i / j}"); // Arithmetic Operators: Divide
+  print("i % j = ${i % j}"); // Arithmetic Operators: Modulus
+  print("i ~/ j = ${i ~/ j}"); // Arithmetic Operators: Division
+  print("K = ${k}"); // Arithmetic Operators: Unary Minus
+
+  var l = 30;
+  print(++l); // Unary Operators: ++Prefix
+  print(l++); // Unary Operators: ++Postfix
+  print(--l); // Unary Operators: --Prefix
+  print(l--); // Unary Operators: --Postfix
+
+  final m = 10; // Constant: Final keyword
+  const n = 20; // Constant: Const Keyword
+  print(m);
+  print(n);
+
+  print(g.first); // List Properties: first
+  print(g.last); // List Properties: last
+  print(g.reversed); // List Properties: reversed
+  print(g.length); // List Properties: length
+  print(g.isEmpty); // List Properties: isEmpty
+  print(g.isNotEmpty); // List Properties: isNotEmpty
+  print(g.single); // List Properties: single
+
+  const flList = [25, 30, 40]; // Fixed Length List
+  print(flList);
+  flList.add(96);
+  print(flList);
+
+  var glist = [10, 20, 30, 40]; // Growable List
+  print(glist);
+  glist.add(50); // Add single value at the end
+  print(glist);
+  glist.addAll([60, 70, 80]); // Add multiple value oa the end
+  print(glist);
+  glist.insert(0, 9); // Add single value as index number
+  print(glist);
+  glist.insertAll(0, [6, 7, 8]); // Add multiple value as index number
+  print(glist);
+  glist[0] = 1; // Update List as index number
+  print(glist);
+  glist.remove(80); // Remove value as value
+  print(glist);
+  glist.removeAt(0); // Remove value as index number
+  print(glist);
+  glist.removeLast(); // Remove last value
+  print(glist);
+  glist.removeRange(6, 8); // Remove multiple value as index
+  print(glist);
+}
