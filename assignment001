@@ -10,27 +10,6 @@ main() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 মডিউল ১ এর এসাইনমেন্ট
 Declare two constant variables "a" and "b" with any integer values of your choice.
 Perform addition, subtraction, multiplication, division, and modulus directly on "a"
@@ -44,6 +23,27 @@ Addition: 7 + 3 = 10
 Subtraction: 7 - 3 = 4
 Multiplication: 7 * 3 = 21
 Division: 7 / 3 = 2.3333333333333335
+
+
+
+// Live Test
+void main() {
+  Map persons = {
+    "PersonID": 1,
+    "Name": "Shakir Ahmad",
+    "Age": 25,
+    "Salary": 50000,
+    "Gender": "Male",
+  };
+  print(persons["Salary"]);
+}
+
+/*
+Question
+Create a Map representing persons with key-value pairs. The keys are "PersonID,"
+"Name," "Age," "Salary," and "Gender." Only the values for "PersonID,"
+"Age," and "Salary" will be numbers. Print out the "Salary" value from the map.
+*/
 Modulus: 7 % 3 = 1
 Submission Guidlines: 
 
